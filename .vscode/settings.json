@@ -1,1 +1,5 @@
-{}
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "myapi/bin/Release/net9.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/67086de9-d969-4084-ac64-d44075b3856e/resourceGroups/allinoneva/providers/Microsoft.Web/sites/allinoneva"
+}
