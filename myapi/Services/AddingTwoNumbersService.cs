@@ -10,7 +10,7 @@ namespace myapi.Services
     {
          public string GetSum (int num1, int num2)
         {
-            int sum = num1 + num1;
+            int sum = num1 + num2;
             return $"The sum is {sum}";
         }
     }

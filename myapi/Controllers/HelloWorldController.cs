@@ -11,7 +11,7 @@ namespace myapi.Controllers
     [Route("api/[controller]")]
     public class HelloWorldController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("hello/{name}")]
         public string Greet(string name)
         {
             return $"Hello World, my name is {name}";
